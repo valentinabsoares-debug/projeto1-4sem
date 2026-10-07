@@ -4,11 +4,11 @@
 [![Versão](https://img.shields.io/badge/versão-[0.1.0]-blue)]()
 [![Licença](https://img.shields.io/badge/licença-[acadêmica]-lightgrey)]()
 
-**Instituição:** [UniCEUB]  
-**Curso:** [Ciência da Computação]  
-**Disciplina:** [Desenvolvimento Web]  
-**Turma / Semestre:** [2026.4]  
-**Professor(a):** [Felippe Pires Ferreira]  
+**Instituição:** UniCEUB  
+**Curso:** Ciência da Computação  
+**Disciplina:** Desenvolvimento Web  
+**Turma / Semestre:** 2026.4  
+**Professor(a):** Felippe Pires Ferreira  
 **Status do projeto:** [Protótipo / MVP / **Em desenvolvimento** / Concluído]
 
 ---
@@ -35,7 +35,7 @@
 
 ## 1. Descrição do projeto
 
-[O projeto consiste no desenvolvimento de um sistema web destinado à organização de sessões de jogos de tabuleiro entre membros de um grupo.
+O projeto consiste no desenvolvimento de um sistema web destinado à organização de sessões de jogos de tabuleiro entre membros de um grupo.
 
 Atualmente, a organização dessas sessões pode ocorrer por meio de grupos de conversa, nos quais os participantes precisam informar manualmente seu interesse em participar de determinada sessão. Quando o número de pessoas é relativamente grande, esse processo pode gerar dificuldades para controlar as vagas disponíveis, organizar listas de espera, identificar desistências e verificar conflitos de horário entre participantes.
 
@@ -43,13 +43,11 @@ Também podem ocorrer situações em que uma mesma pessoa tenta participar de ev
 
 O sistema proposto busca centralizar essas informações e automatizar as principais regras de organização das sessões, permitindo que os membros visualizem os eventos disponíveis, realizem inscrições, acompanhem a ocupação das mesas e utilizem listas de espera quando necessário.
 
-A aplicação também deverá considerar penalidades para participantes que confirmarem presença e cancelarem a participação de forma injustificada em situações próximas ao evento. A penalidade terá como objetivo reduzir desistências que prejudiquem a organização das mesas.]
+A aplicação também deverá considerar penalidades para participantes que confirmarem presença e cancelarem a participação de forma injustificada em situações próximas ao evento. A penalidade terá como objetivo reduzir desistências que prejudiquem a organização das mesas.
 
 ### Objetivos
 
-*Liste os objetivos gerais e específicos do projeto.*
-
-- **Objetivo geral:** [Desenvolver uma aplicação web para auxiliar na organização de sessões de jogos de tabuleiro entre membros de um grupo, controlando eventos, inscrições, limites de participantes, listas de espera e conflitos de horário.]
+- **Objetivo geral:** Desenvolver uma aplicação web para auxiliar na organização de sessões de jogos de tabuleiro entre membros de um grupo, controlando eventos, inscrições, limites de participantes, listas de espera e conflitos de horário.
 - **Objetivos específicos:**
   - Permitir que membros autorizados do grupo consultem os eventos disponíveis.
   - Permitir que um membro se ofereça como anfitrião e crie uma sessão de jogo.
@@ -75,33 +73,34 @@ A aplicação também deverá considerar penalidades para participantes que conf
 
 ## 2. Funcionalidades
 
-*Liste as funções implementadas (ou previstas) no sistema. Marque o status de cada uma.*
-
 | Funcionalidade | Descrição | Status |
 | --- | --- | --- |
-| [Autenticação] | [Permitir o acesso somente a membros autorizados.] | [Implementada / Em andamento / Planejada] |
-| [Consultar eventos] | [Exibir os eventos disponíveis para participação.] | [Implementada / Em andamento / Planejada] |
-| [Criar evento] | [Permitir que um anfitrião crie uma nova sessão.] | [Implementada / Em andamento / Planejada] |
-| [Consultar jogo] | [Buscar informações sobre o jogo por meio da API externa.] | [Implementada / Em andamento / Planejada] |
-| [Inscrever-se] | [Permitir que um participante solicite uma vaga em um evento.] | [Implementada / Em andamento / Planejada] |
-| [Cancelar inscrição] | [Permitir que um participante desista de sua participação.] | [Implementada / Em andamento / Planejada] |
-| [Lista de espera] | [Registrar interessados quando não houver vagas disponíveis.] | [Implementada / Em andamento / Planejada] |
-| [Controle de vagas] | [Impedir que o número máximo de participantes seja ultrapassado.] | [Implementada / Em andamento / Planejada] |
-| [Controle de conflito] | [Impedir inscrições em eventos que ocorram no mesmo horário.] | [Implementada / Em andamento / Planejada] |
-| [Controle do minímo] | [Identificar se o evento atingiu o número mínimo de participantes.] | [Implementada / Em andamento / Planejada] |
-| [Penalidade] | [Registrar penalidades decorrentes de cancelamentos injustificados.] | [Implementada / Em andamento / Planejada] |
-| [Prioridade] | [Considerar penalidades na prioridade de futuras inscrições.] | [Implementada / Em andamento / Planejada] |
-| [Relatórios] | [Gerar relatórios consolidados sobre eventos e participações.] | [Implementada / Em andamento / Planejada] |
-| [API REST] | [Disponibilizar informações selecionadas por meio de uma API própria.] | [Implementada / Em andamento / Planejada] |
+| Autenticação | Permitir o acesso somente a membros autorizados. | [Implementada / Em andamento / Planejada] |
+| Consultar eventos | Exibir os eventos disponíveis para participação. | [Implementada / Em andamento / Planejada] |
+| Criar evento | Permitir que um anfitrião crie uma nova sessão. | [Implementada / Em andamento / Planejada] |
+| Consultar jogo | Buscar informações sobre o jogo por meio da API externa. | [Implementada / Em andamento / Planejada] |
+| Inscrever-se | Permitir que um participante solicite uma vaga em um evento. | [Implementada / Em andamento / Planejada] |
+| Cancelar inscrição | Permitir que um participante desista de sua participação. | [Implementada / Em andamento / Planejada] |
+| Lista de espera | Registrar interessados quando não houver vagas disponíveis. | [Implementada / Em andamento / Planejada] |
+| Controle de vagas | Impedir que o número máximo de participantes seja ultrapassado. | [Implementada / Em andamento / Planejada] |
+| Controle de conflito | Impedir inscrições em eventos que ocorram no mesmo horário. | [Implementada / Em andamento / Planejada] |
+| Controle do minímo | Identificar se o evento atingiu o número mínimo de participantes. | [Implementada / Em andamento / Planejada] |
+| Penalidade | Registrar penalidades decorrentes de cancelamentos injustificados. | [Implementada / Em andamento / Planejada] |
+| Prioridade | Considerar penalidades na prioridade de futuras inscrições. | [Implementada / Em andamento / Planejada] |
+| Relatórios | Gerar relatórios consolidados sobre eventos e participações. | [Implementada / Em andamento / Planejada] |
+| API REST | Disponibilizar informações selecionadas por meio de uma API própria. | [Implementada / Em andamento / Planejada] |
 
 ### Requisitos não funcionais
 
-*Informe restrições de qualidade, quando existirem.*
-
-- **Desempenho:** [Ex.: respostas da API em menos de 2 segundos]
-- **Segurança:** [Ex.: senhas armazenadas com hash; HTTPS em produção]
-- **Usabilidade:** [Ex.: interface responsiva para desktop e celular]
-- **Disponibilidade:** [Ex.: uso em ambiente local / laboratório da disciplina]
+- O backend deverá ser desenvolvido utilizando Python e Django.
+- A aplicação deverá utilizar um banco de dados relacional.
+- A API REST deverá ser implementada utilizando Django REST Framework ou tecnologia equivalente.
+- A aplicação deverá ser publicada na Internet durante o período de avaliação.
+- Informações sensíveis, senhas, tokens e chaves de API não poderão ser armazenados diretamente no repositório.
+- Configurações sensíveis deverão ser fornecidas por variáveis de ambiente.
+- O código deverá ser mantido em um repositório GitHub.
+- Os diagramas e documentos deverão permanecer versionados no repositório.
+- A aplicação deverá apresentar uma interface responsiva.
 
 ---
 
@@ -210,12 +209,12 @@ Documentação completa da API: [link para Swagger, Postman ou `docs/api.md`]
 
 | Nome | Matrícula | Função no projeto |
 | --- | --- | --- |
-| [Nome completo] | [000000] | [Ex.: coordenação / backend / frontend / testes / documentação] |
-| [Nome completo] | [000000] | [Ex.: backend] |
+| Valentina B. Soares | 22507363 | [Ex.: coordenação / backend / frontend / testes / documentação] |
+| Giovanna Hamú C. | [000000] | [Ex.: backend] |
 | [Nome completo] | [000000] | [Ex.: frontend] |
 | [Nome completo] | [000000] | [Ex.: testes e documentação] |
 
-**Professor(a) responsável:** [Nome completo]
+**Professor(a) responsável:** Felippe Pires Ferreira
 
 ---
 
@@ -306,10 +305,10 @@ Este repositório segue a política de uso de IA da disciplina (semáforo pedag�
 
 *Preencha de forma honesta. Se não houve uso de IA, declare explicitamente.*
 
-- **Houve uso de IA neste projeto?** [Sim / Não]
-- **Ferramentas utilizadas:** [Ex.: ChatGPT, GitHub Copilot, Gemini — ou “nenhuma”]
-- **Finalidade:** [Ex.: revisão de texto, geração de esboço de testes, esclarecimento de dúvidas de sintaxe]
-- **O que NÃO foi delegado à IA:** [Ex.: definição do problema, modelagem, implementação das regras de negócio, testes finais]
+- **Houve uso de IA neste projeto?** [**Sim** / Não]
+- **Ferramentas utilizadas:** ChatGPT
+- **Finalidade:** Revisão de texto, esclarecimento de dúvidas
+- **O que NÃO foi delegado à IA:** Definição do problema, modelagem, implementação das regras de negócio, testes finais
 
 ---
 
@@ -392,6 +391,6 @@ Este material destina-se a fins educacionais. Verifique com a disciplina se o c�
 
 ### Contato
 
-Dúvidas sobre o projeto: [e-mail institucional do grupo ou issue no repositório]
+Dúvidas sobre o projeto: valentina.bsoares@sempreceub.com ou giovanna.hamuc@sempreceub.com
 
-**Agradecimentos:** [Ex.: professor(a), monitoria, materiais da disciplina]
+**Agradecimentos:** Professor(a): Fellipe Pires Ferreira, materiais da disciplina de Desenvolvimento Web
